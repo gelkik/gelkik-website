@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "r": "^0.0.5",
+    "react-scroll": "^1.8.9"
+  }
+}
