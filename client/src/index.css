@@ -1,0 +1,352 @@
+/* html, body {
+  overflow-x:hidden ;
+  max-width: '100%';
+  margin: auto;
+}  */
+
+/* * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+
+/* *, *:before, *:after {
+  box-sizing: border-box;
+} */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+  margin: 0px;
+}
+
+.header-nav ul {
+  margin:0;
+  list-style:none;
+}
+
+.header-light {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px;
+  z-index: 2;
+  height: 100px;
+  min-height: 100px;
+  /* width: calc(100% - 1.5rem); */
+  width: '20%';
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+  /* padding: 0 1rem; */
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
+.header-dark {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px;
+  z-index: 2;
+  height: 100px;
+  min-height: 100px;
+  width: '20%';
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  /* padding: 0 1rem; */
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* #home {
+  text-align: left;
+  width: "50%";
+  min-width: auto;
+  height:auto;
+  max-width: '100%';
+} */
+
+/* #page-content {
+  margin: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+} */
+
+/* #page-content {
+  align-items: start;
+  width: '20%';
+  max-width: "100%";
+} */
+
+section {
+	display: grid;
+	place-items: center;
+	height: 75vh;
+	font-size: 32px;
+	font-weight: bold;
+  max-width: '100%';
+}
+
+.App-light {
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+.App-dark {
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  color: white;
+}
+
+.header-nav {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  /* padding-left: 100px; */
+  flex: 1;
+  font-weight: 600
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: red underline;
+}
+#page-content{
+  height: 25em;
+  max-height: '100%';
+  margin-bottom: 10vh;
+}
+#about{
+  height: 40em;
+  margin-top: 20vh;
+  max-height: '100%';
+  margin-bottom: 10vh;
+}
+#projects{
+  height: 20em;
+  margin-top: 30vh;
+  max-height: '100%';
+  font-family: monospace;
+}
+#contact{
+  text-align: center;
+  height: 30em;
+  max-height: '100%';
+  margin-top: 45vh;
+  font-family: monospace;
+}
+
+/* #page-content{
+  font-family: Lato, sans-serif;
+  font-size: '50%';
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: '50%';
+  text-transform: none;
+  color: #2E2E2E;
+  display: inline-block;
+  margin-top: 1%;
+  max-width: '100%';
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+} */
+/* animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; */
+
+/* .page-content-text-dark{
+  font-family: Lato, sans-serif;
+  font-size: '50%';
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: '50%';
+  text-transform: none;
+  color: white;
+  display: inline-block;
+} */
+
+.page-content-text-first{
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: normal;
+  font-size: '50%';
+  width: 0;
+  max-width: '100%';
+  animation: 
+    typing 1s steps(30, end) forwards;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+}
+/* border-right: .15em solid black; */
+
+.page-content-text-second{
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: normal;
+  font-size: '10%';
+  width: 0;
+  animation: 
+    typing 1s steps(50, end) forwards;
+  animation-delay: 1.5s;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+}
+.page-content-text-third{
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: normal;
+  font-size: '10%';
+  width: 0;
+  animation: 
+    typing 2s steps(50, end) forwards;
+  animation-delay: 3.5s;
+  margin: 0 auto;
+  letter-spacing: .15em;
+}
+
+.page-content-text-fourth{
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: normal;
+  font-size: '10%';
+  font-size: 2.6rem;
+  width: 0;
+  animation: 
+    typing 2s steps(50, end) forwards;
+  animation-delay: 6s;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+}
+.page-content-buttons { 
+  padding-top: 2vw;
+  animation: fadeIn 5s;
+  animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+#about{
+  text-align: center;
+  font-family: monospace;
+}
+.about-me-text{
+  text-align: justify;
+  font-family: monospace;
+  flex-wrap: wrap;
+  padding-left:10vw;
+  padding-right:10vw;
+  font-size: '10%';
+}
+.about-me-skills{
+  padding-top:100px;
+  font-size: '10%';
+}
+
+.pre-email-form{
+  text-align: center;
+  padding-left:2vw;
+  padding-right:2vw;
+}
+.email-form{
+  text-align: center;
+  padding-left:20vw;
+  padding-right:20vw;
+}
+
+@media (max-width:600px){
+  .about-me-text{
+    text-align: left;
+    font-family: monospace;
+    flex-wrap: wrap;
+    padding-left:2vw;
+    padding-right:2vw;
+    font-size: '10%';
+  }
+  #page-content{
+    height: 25em;
+    max-height: '100%';
+    margin-bottom: 10vh;
+  }
+  #about{
+    height: 45em;
+    margin-top: 20vh;
+    max-height: '100%';
+  }
+  #projects{
+    height: 30em;
+    margin-top: 45em;
+    max-height: '100%';
+    font-family: monospace;
+  }
+  #contact{
+    text-align: center;
+    height: 30em;
+    max-height: '100%';
+    margin-top: 45vh;
+    font-family: monospace;
+  }
+  .email-form{
+    padding-left:5vw;
+    padding-right:5vw;
+  }
+}
+
+
+
